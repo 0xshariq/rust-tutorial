@@ -1,6 +1,6 @@
 use std::io;
 
-fn count_vowels(s: &str) -> usize {
+fn count_vowels(s: &str) -> u16 {
     let vowels = "aeiouAEIOU";
     let count = s.chars().filter(|c| vowels.contains(*c)).count();
     count
